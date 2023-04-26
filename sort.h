@@ -23,7 +23,8 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-
+void quick_sort_operation(int *array, int low, int high, size_t size);
+int lumuto_partition(int *array, int low, int high, size_t size);
 
 void swap_item(listint_t *big_item, listint_t *small_item);
 
